@@ -1,0 +1,32 @@
+/*
+Reescreva o exercício 3, utilizando apenas o SWITCH.
+*/
+let numero = prompt("Digite o número da semana");
+
+
+switch (numero) {
+    case "1":
+    console.log("SEGUNDA-FEIRA")
+    break;
+    case "2":
+    console.log("TERÇA-FEIRA")
+    break;
+    case "3":
+    console.log("QUARTA-FEIRA")
+    break;
+    case "4":
+    console.log("QUINTA-FEIRA")
+    break;
+    case "5":
+    console.log("SEXTA-FEIRA")
+    break;
+    case "6":
+    console.log("SÁBADO")
+    break;
+    case "7":
+    console.log("DOMINGO")
+    break;
+    default:
+    console.log("Dia não reconhecido.")
+    break;
+}
