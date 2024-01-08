@@ -1,0 +1,13 @@
+/*
+Faça um algoritmo que armazene um número e imprima os
+números ímpares entre 1 e o número armazenado.
+*/
+let numeroArmazenado = parseInt(prompt("Digite um número:"));
+
+console.log(`Números ímpares entre 1 e ${numeroArmazenado}:`);
+
+for (let i = 1; i <= numeroArmazenado; i++) {
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
+}
